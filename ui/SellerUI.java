@@ -35,7 +35,7 @@ public class SellerUI {
 
             switch (ch) {
                 case 1 -> addProduct();
-                case 2 -> productRepo.viewProductsBySeller(sellerId);   // ✅ seller view
+                case 2 -> productRepo.viewProductsBySeller(sellerId);  
                 case 3 -> updateStock();
                 case 4 -> removeProduct();
                 case 5 -> orderRepo.viewOrdersForSellerProducts(sellerId);
